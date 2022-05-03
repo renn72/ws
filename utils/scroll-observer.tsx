@@ -1,4 +1,3 @@
-import { warn } from 'console'
 import React, { ReactNode, useCallback, useEffect, useState } from 'react'
 
 interface ScrollValue {
@@ -31,3 +30,4 @@ const ScrollObserver: React.FC<Props> = ({ children }) => {
 }
 
 export default ScrollObserver
+

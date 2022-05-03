@@ -3,11 +3,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import AboutUs from '../components/aboutus'
 import Masthead from '../components/masthead'
-import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>WS</title>
         <meta name="description" content="Warner Systems" />
