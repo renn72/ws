@@ -77,8 +77,6 @@ export const Tile: React.FC<Props> = ({page, renderContent}) => {
     opacity = Math.max(0, (1.0 - progress) * 4)
   }
 
-  console.log(page + " " + progress)
-
   return (
     <div
       ref={refContainer}
